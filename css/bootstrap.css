@@ -6425,7 +6425,7 @@ button.close {
 }
 @media (max-width: 767px) {
     
-    .intro-text>h1>strong{font-size:5.5rem}/*반응형 메인 폰트 조정 */
+    
   .visible-xs-inline-block {
     display: inline-block !important;
   }
