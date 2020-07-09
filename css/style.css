@@ -29,6 +29,7 @@ body, html {
     width: 8px;
     height: 8px;
     /*border: 3px solid #fff*/;
+    
 }
 
 ::-webkit-scrollbar-button:start:decrement,
@@ -153,7 +154,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-    padding-top: 0;
+    padding-top: 20px;
 }
 
 
@@ -196,8 +197,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .section-title p {
 	font-size: 18px;
 }
-.section-title>h3{padding-bottom: 30px}
-.section-title .contactme p{font-family: 'KOMACON'}
+.section-title>h3{padding-bottom:50px}
+.section-title .contactme{width: 70%; margin: 0 auto}
+.section-title .contactme p{font-family: 'KOMACON'; }
 
 .section-title .contactme p:nth-child(1){float: left}
 .section-title .contactme p:nth-child(2){float: right}
@@ -515,6 +517,8 @@ ol.type li a:hover {
 	background-size: cover;
    
 }
+
+    #team .contactme p:hover{color: #f79654}
 #team .overlay {
 	padding: 120px 0;
 	background: rgba(66, 90, 83, 0.9);
@@ -653,6 +657,7 @@ color: #777;
 
 
 
+
 @media all and (max-width:768px) {
     
     
@@ -675,6 +680,13 @@ color: #777;
 	padding: 120px 0 0;
 	background: rgba(66, 90, 83, 0.9);
 }
+    
+    
+
+    
+    
+    
+    
  .intro-text .side-text{float: right; text-align: left; transform: rotate(90deg);font-family: 'Binggrae-Bold';font-size: 4em; opacity: 0.3; }
     
     .btn-custom {
