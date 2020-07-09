@@ -57,6 +57,7 @@ b,
 strong {
   font-weight: bold;
 }
+.intro-text>h1>strong{font-size: 5.5rem}
 dfn {
   font-style: italic;
 }
