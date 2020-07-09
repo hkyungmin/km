@@ -27,12 +27,12 @@
 }
 .nivo-lightbox-wrap  {
 	position: absolute;
-	top: 10%;
+	top: 5%;
 	bottom: 10%;
 	left: 10%;
 	right: 10%;
   overflow-y: scroll;
- 
+    
 }
 
 
@@ -70,9 +70,9 @@
 .nivo-lightbox-image { text-align: center;}
 .nivo-lightbox-image img {
 	max-width: 100%;
-	/*max-height: 100%;*/
-	width: auto;
-	height: auto;
+	/*max-height: 100%;
+	width: 100%;
+	height:auto;*/
 	vertical-align: middle;
 }
 .nivo-lightbox-content iframe {
