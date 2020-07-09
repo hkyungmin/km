@@ -57,6 +57,7 @@ b,
 strong {
   font-weight: bold;
 }
+
 dfn {
   font-style: italic;
 }
@@ -5820,6 +5821,9 @@ button.close {
   overflow: scroll;
 }
 @media (min-width: 768px) {
+    
+
+    
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
@@ -5833,6 +5837,9 @@ button.close {
   }
 }
 @media (min-width: 992px) {
+    
+
+    
   .modal-lg {
     width: 900px;
   }
@@ -6417,6 +6424,8 @@ button.close {
   }
 }
 @media (max-width: 767px) {
+    
+    
   .visible-xs-inline-block {
     display: inline-block !important;
   }
