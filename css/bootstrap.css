@@ -57,7 +57,7 @@ b,
 strong {
   font-weight: bold;
 }
-.intro-text>h1>strong{font-size: 5.5rem}
+.intro-text>h1>strong{font-size: 7rem}
 dfn {
   font-style: italic;
 }
@@ -5821,6 +5821,9 @@ button.close {
   overflow: scroll;
 }
 @media (min-width: 768px) {
+    
+
+    
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
@@ -5834,6 +5837,9 @@ button.close {
   }
 }
 @media (min-width: 992px) {
+    
+
+    
   .modal-lg {
     width: 900px;
   }
@@ -6418,6 +6424,8 @@ button.close {
   }
 }
 @media (max-width: 767px) {
+    
+    .intro-text>h1>strong{font-size:5.5rem}/*반응형 메인 폰트 조정 */
   .visible-xs-inline-block {
     display: inline-block !important;
   }
