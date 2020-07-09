@@ -708,7 +708,7 @@ color: #777;
     
     .intro h1 {
 	color: #fff;
-	font-size: 5.5rem;
+	font-size: 5.5rem !important;
 	font-weight: 400;
 	margin-top: 0;
 	margin-bottom: 10px;
