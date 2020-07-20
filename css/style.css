@@ -306,6 +306,7 @@ header .intro-text {
 
 .about-text .left{width: 50%; float: left;margin-right: 5% }
 .about-text .right{width: 45%; float: right}
+.about-text .right p a:hover{color: #f79654; }
 .about-text:after{content: ''; display: block; clear:both}
 
 .about-text p{font-family: 'KOMACON'}
