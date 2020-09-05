@@ -704,7 +704,7 @@ color: #777;
 	transition: all 0.5s;
 }
     /*pc버전일때 앱솔루트 처리해보기 */
-    .intro-text .l-title{font-family: 'KOMACON'; margin-left: 5%; margin-bottom: 0; position: absolute; top:25%}
+    .intro-text .l-title{font-family: 'KOMACON'; margin-left: 5%; margin-bottom: 0; margin-top: 10%}
 .intro-text .name{font-family: 'KOMACON';margin-left: 5%}
     
     .intro h1 {
