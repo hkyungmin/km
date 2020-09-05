@@ -145,7 +145,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(66, 90, 83, 0);
+	background-color: rgba(66, 90, 83, 0.7);
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
