@@ -1,0 +1,72 @@
+#wrap{}
+#header{}
+#section{}
+#footer{}
+
+/*********************header****************************/
+#header{position: fixed; width: 100%; height: 90px}
+nav{; color: #fff; }
+nav p{float: left;background-image:url(../images/logo.png);width: 30%;height: 66px;margin-top: 24px;background-repeat: no-repeat}
+nav ul{float: right;padding-top: 38px;font-family: 'Noto Sans KR', sans-serif;font-weight: 500}
+nav ul li{float: left; padding: 0 30px; text-align: right;font-size: 1rem;}
+nav ul li:nth-child(3){padding-right: 0}
+/*********************section****************************/
+#mainimg{width: 100%; height: 950px; background-image: url(../images/mainimg.png);background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: fixed}
+.maintext{position: absolute; top: 308px; text-align: center; right: 10%; left: 10%; margin: 0 auto}
+.maintext p{color: #fff; font-size: 2.3rem; font-family: 'GmarketSansMedium'}
+.maintext p:nth-child(2){font-size: 8rem;font-family: 'Roboto', sans-serif;font-weight: 500;letter-spacing: 5px }
+.sect1 {padding-top: 159px}
+.sect1 div{width: 50%;float: left; box-sizing: border-box}
+
+.sect1 div:nth-child(1),.sect1 div:nth-child(2){padding-bottom: 64px}
+.sect1 div:nth-child(1),.sect1 div:nth-child(3){padding-right: 40px}
+.sect1 div.sect1text{font-size: 3.6rem; color: #092f3c; font-family: 'Roboto', sans-serif;font-weight: 500; line-height: 90px;}
+.sect1 div.sect1text div{padding-left: 48px;padding-top: 87px}
+.sect1 div.sect1text p:nth-child(4){font-size: 1.2rem; font-family: 'Noto Sans KR', sans-serif;font-weight: 500}
+.sect1 div.sect1text p button{width: 167px; height: 51px; background-color: #092f3c; color: #fff;margin-top: 24px}
+
+.sect2 img{width: 100%; text-align: center;padding-top: 90px}
+
+
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+/*********************footer****************************/
+#footer img{width: 100%}
